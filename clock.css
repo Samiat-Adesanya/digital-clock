@@ -1,0 +1,54 @@
+body{
+    background-image: url("download.jpeg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--custom-font-family);
+    font-size: 18px;
+  width: 70%;
+      height: 50%;
+    margin: 100px auto;
+    box-shadow: 5px 6px 10px 0 #0c0c0c ;
+    padding: 70px 0;
+}
+:root{
+    --custom-font-family:'Tektur';
+}
+marquee{
+    font-family: var(--custom-font-family);
+}
+p{
+    color: rgb(120, 120, 249);
+    margin:20px;
+    font-size: 70px;
+    font-weight: bold;
+}
+h4.pm{
+    color: rgb(177, 216, 249);
+}
+h4{
+    color: rgb(243, 245, 246);
+}
+marquee{
+    font-size: 30px;
+    color: white;
+}
+@media (max-width:1200px) {
+    section{
+      width: 100%;
+        margin: 100px auto;
+        box-shadow: 5px 5px 10px #0c0c0c;
+        padding: 0px 0;
+    }
+
+    p{
+        font-size: 40px;
+        font-weight: bold;
+    }
+  
+}
