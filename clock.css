@@ -36,7 +36,7 @@ h4{
 }
 marquee{
     font-size: 30px;
-    color: white;
+    color: rgb(126, 126, 243);
 }
 @media (max-width:1200px) {
     section{
